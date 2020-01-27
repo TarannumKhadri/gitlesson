@@ -1,10 +1,12 @@
 var area={
     setDim(){
-         length = window.prompt("Enter length: ");
-         breadth = window.prompt("enter breadth: ");
+        length = prompt("Enter length: ");
+         b = prompt("enter breadth: ");
     },
-    getArea(){
-        area = 2(length + breadth);
+    getArea(length,b){
+        return length *b;
     }
 }
-console.log("the area is :"+ area);
+area.setDim()
+document.writeln("area is " + area.getArea(length,b));
+console.log(" the area is " + area.getArea(length,b));
