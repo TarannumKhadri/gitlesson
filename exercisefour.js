@@ -10,8 +10,8 @@ class Complex {
     return '' + re + '+' + im + 'i';
 }
  sum() {
-        var real = num1.real + num2.real;
-        var imaginary = num1.imaginary + num2.imaginary;
+        var real = num1.real - -num2.real;
+        var imaginary = num1.imaginary - -num2.imaginary;
         return display(real, imaginary);
 }
  difference(){
