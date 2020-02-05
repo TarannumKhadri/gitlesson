@@ -1,0 +1,100 @@
+<!-- USer dashboard-->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <style>
+        .item2 { grid-area: menu;
+            height: 100%;
+            width: 200px;
+             position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgba(61, 58, 58, 0.863);
+            overflow-x: hidden;
+            padding-top: 20px; 
+           
+}
+    .item2 img {   
+    height:70px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item2 button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+        .item3 { grid-area: main;
+            margin-left: 200px; }
+
+        .grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+    </style>
+    <body>
+
+        <div class="item2">
+            <h3>COAT</h3>
+            <h6>powered by CAMPUSPUPPY</h6>
+           
+            <img src="https://bit.ly/fcc-relaxing-cat">
+            <div class="write-text">
+            <p style = "margin-left:50px;font-size: 23;">Welcome</p>
+            <button>Logout</button>
+        </div>
+        </div>
+
+        <div class="item3">
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+          
+    </body>
+</html>
