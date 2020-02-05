@@ -1,0 +1,148 @@
+<!--landing page-->
+<html>
+<head> 
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<style>
+  header{
+    display: block;
+    background-color: black;
+    color: whitesmoke; 
+    padding:10px;
+  }
+  .login-container button{
+  float: right;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  .login-container  {
+    float: right;
+    margin-top:-30px;
+  }
+  footer {
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+    padding:1px;
+    text-align:center;
+  }
+  .register{
+    background: rgb(194, 191, 216);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: left;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left img{
+   border-radius: 20%;
+   border-color: lightgreen;
+   border-style: solid;
+   border-width: 10px;
+}
+.register-left p{
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+  margin-left: 100px;
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    width: 50%;
+    cursor: pointer;
+}
+.register-heading{
+    text-align: right;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+</style>
+<body>
+<header>
+  <h5>CAMPUS PUPPY ONLINE ASSESMENT TEST</h5>
+  <h6>powered by CAMPUSPUPPY</h6>
+  <div class ="login-container">
+  <input type="text" placeholder="e-mail address" name = "search">
+  <input type="text" placeholder="password">
+  <button class = "login-button"> Login </button>
+</div>
+</header>
+<div class="container register">
+  <div class="row">
+      <div class="col-md-3 register-left">
+        <img src="https://bit.ly/fcc-relaxing-cat">  
+        <p>lopsem lopsem lopsem</p>
+        <h3>Have you taken your coat yet</h3>
+      </div>
+      <div class="register-right"> 
+          <div class="tab-content" id="myTabContent">
+            <h3 class="register-heading">New to Coat? register now!!</h3>
+            <div class="row register-form">
+              <div>
+                        <div class="form-group">
+                              <input type="text" class="form-control" placeholder="First Name " value="" />
+                        </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Email Address" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="password" class="form-control" placeholder="Enter Password" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="text"class="form-control" placeholder="College Name" value="" />
+                          </div>
+                          <div class="form-group">
+                              <select class="form-control">
+                                  <option class="hidden"  selected disabled>Choose Course</option>
+                                  <option>HTML</option>
+                                  <option>CSS</option>
+                                  <option>Javascript</option>
+                              </select>
+                          </div>
+              </div>
+               <div>
+                          <div class="form-group">
+                              <input type="email" class="form-control" placeholder="Last name" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="mobile number" value="" />
+                          </div>
+                          <div class="form-group">
+                              <select class="form-control">
+                                  <option class="hidden"  selected disabled>Gender</option>
+                                  <option>Female</option>
+                                  <option>Male</option>
+                              </select>
+                            </div>
+                          <div class="form-group">
+                              <select class="form-control">
+                                  <option class="hidden"  selected disabled>Choose Batch</option>
+                                  <option>007</option>
+                                  <option>008</option>
+                              </select>
+                          </div>
+                          <input type="submit" class="btnRegister"  value="Register"/>
+              </div>
+            
+          
+          </div>    
+      </div>
+  </div>
+</div>
+</div>
+<footer class = "footer">
+  <h5>Campus Puppy Private Limited</h5>
+</footer>
+</body>
+</html>
